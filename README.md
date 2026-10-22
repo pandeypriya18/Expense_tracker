@@ -156,9 +156,6 @@ The intended access rules include:
 - Under the intended category deletion policy, admins must not delete user-owned categories.
 
 ## Installation and Setup
-
-These are standard Django setup steps. Adjust package names and commands to match the repository and operating system.
-
 1. Clone or copy the project and navigate to the directory containing `manage.py`.
 2. Create and activate a virtual environment.
 3. Install the project's dependencies.
@@ -188,7 +185,6 @@ pip install -r requirements.txt
 Use Postman to test each endpoint. For protected endpoints, include the JWT access token.
 
 Recommended test cases:
-
 - Successful registration and login
 - Invalid credentials and invalid input
 - Logout and password-management flows
