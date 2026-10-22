@@ -2,8 +2,6 @@
 
 A Django REST Framework (DRF) REST API for managing daily expenses, organizing categories, setting monthly budgets, and converting expense amounts into a base currency (INR) using exchange rates.
 
-> **Project status:** Authentication, category, expense, and budget APIs have been developed and tested with Postman. Final end-to-end verification of currency conversion and exchange-rate caching is still required.
-
 ## Features
 
 ### Authentication and Password Management
